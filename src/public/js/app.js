@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const socket = io();
 
 const welcome = document.getElementById("welcome");
@@ -79,3 +80,6 @@ socket.on("room_change", (rooms) => {
         roomList.append(li);
     });
 });
+=======
+alert("hi");
+>>>>>>> main
