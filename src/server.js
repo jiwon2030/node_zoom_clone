@@ -103,6 +103,6 @@ app.set("views", __dirname + "/views");
 app.use(express.static(path.join(__dirname, 'public')))
 app.get("/", (req, res) => res.render("home"));
 
-const handleListen = () => console.log('Listening on http://localhost:3000');
-app.listen(3000, handleListen); 
+const handleListen = () => console.log('Listening on http://localhost:3001');
+app.listen(3001, handleListen); 
 >>>>>>> main
